@@ -1,0 +1,34 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "FAST Desktop POC",
+        "description": "FAST Desktop POC",
+        "url": "file:///Users/marvincharles/workspace/openfin/index.html",
+        "uuid": "FDPOC-n1erkhegif",
+        "autoShow": true,
+        "cornerRounding": {
+            "width": 5,
+            "height": 5
+        },
+        "defaultWidth": 500,
+        "maxWidth": 500,
+        "minWidth": 500,
+        "maxHeight": 50,
+        "defaultHeight": 50,
+        "minHeight": 50,
+        "defaultTop": 30,
+        "defaultLeft": 30,
+        "resizable": false,
+        "maximizable": false,
+        "frame": false
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "Openfin POC"
+    }
+}

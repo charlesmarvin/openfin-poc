@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  height: 100%;   
+  overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+  margin: 0px;  /*removes default style*/
+  display: flex;  /*enables flex content for its children*/
+  box-sizing: border-box;
+}
+
+.draggable {
+  -webkit-app-region: drag
+}
