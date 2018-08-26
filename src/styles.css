@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
 html {
   box-sizing: border-box;
   font-size: 16px;
   height: 100%;
+  width:  100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *, *:before, *:after {
@@ -27,6 +28,7 @@ img {
 
 body {
   height: 100%;   
+  width: 100%;
   overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
   margin: 0px;  /*removes default style*/
   display: flex;  /*enables flex content for its children*/
@@ -34,5 +36,10 @@ body {
 }
 
 .draggable {
-  -webkit-app-region: drag
+  -webkit-app-region: drag;
+  cursor: move;
+}
+
+:host {
+  display: flex;
 }

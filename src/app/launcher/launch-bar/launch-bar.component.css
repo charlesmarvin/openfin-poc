@@ -1,0 +1,11 @@
+.logo {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #121212;
+}
+
+.launch-bar {
+  padding: 8px;
+  background: grey;
+}

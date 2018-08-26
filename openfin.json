@@ -3,7 +3,7 @@
     "startup_app": {
         "name": "FAST Desktop POC",
         "description": "FAST Desktop POC",
-        "url": "file:///Users/marvincharles/workspace/openfin/index.html",
+        "url": "http://localhost:4200/launch",
         "uuid": "FDPOC-n1erkhegif",
         "autoShow": true,
         "cornerRounding": {

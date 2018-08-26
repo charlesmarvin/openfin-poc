@@ -12,9 +12,10 @@ import { ChatModule } from './chat/chat.module';
   ],
   imports: [
     BrowserModule,
+
     AppRoutingModule,
-    LauncherModule,
-    ChatModule
+    ChatModule,
+    LauncherModule
   ],
   providers: [],
   bootstrap: [AppComponent]
